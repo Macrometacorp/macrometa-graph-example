@@ -3,6 +3,8 @@
 ## 👀 Overview
 This example demonstrates the ability of graph databases in analyzing and offering recommendations for items that are commonly purchased together. By establishing connections between customer and item vertices using edge collections, the graph is able to seamlessly and accurately deliver tailored recommendations to customers who have bought a particular item.
 
+![graph-image](https://user-images.githubusercontent.com/113168755/227571338-408c956b-7139-4250-b11e-f773b1f94650.png)
+
 ## ❓ How to use this demo
 You can use this demo to understand how to use Macrometa SDK to create graph database and perform operations on it.
 In sample data folder you will find sample data that you can use to import in Macrometa GDN.
