@@ -60,7 +60,7 @@ npm install
     - `groceryItems`
     - `groceryCustomers`
 
-2. Create one edge collection in Macrometa GDN.
+2. Create one edge collection in Macrometa GDN using Macrometa console.
     - `groceryOrders`
 
 3. Import test data from `sample-data` folder in Macrometa GDN.
