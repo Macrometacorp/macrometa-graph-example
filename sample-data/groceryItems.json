@@ -1,0 +1,82 @@
+[
+  {
+    "_key": "P01",
+    "name": "orange"
+  },
+  {
+    "_key": "P02",
+    "name": "strawberry"
+  },
+  {
+    "_key": "P07",
+    "name": "apple"
+  },
+  {
+    "_key": "P05",
+    "name": "beer"
+  },
+  {
+    "_key": "P10",
+    "name": "mustard"
+  },
+  {
+    "_key": "P06",
+    "name": "hot dog"
+  },
+  {
+    "_key": "P03",
+    "name": "pineapple"
+  },
+  {
+    "_key": "P08",
+    "name": "white claw"
+  },
+  {
+    "_key": "P11",
+    "name": "bacon"
+  },
+  {
+    "_key": "P12",
+    "name": "ham"
+  },
+  {
+    "_key": "P14",
+    "name": "celery"
+  },
+  {
+    "_key": "P15",
+    "name": "bread"
+  },
+  {
+    "_key": "P16",
+    "name": "milk"
+  },
+  {
+    "_key": "P19",
+    "name": "kiwi"
+  },
+  {
+    "_key": "P09",
+    "name": "napkins"
+  },
+  {
+    "_key": "P18",
+    "name": "peanut butter"
+  },
+  {
+    "_key": "P17",
+    "name": "jelly"
+  },
+  {
+    "_key": "P13",
+    "name": "eggs"
+  },
+  {
+    "_key": "P04",
+    "name": "ketchup"
+  },
+  {
+    "_key": "P20",
+    "name": "banana"
+  }
+]

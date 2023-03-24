@@ -1,0 +1,10 @@
+// Query: Find the most popular item in the grocery store based on the number of users who purchased it
+LET doc = (FOR d in groceryItems FILTER d.name == @name RETURN d)[0]
+FOR user IN 1..1 INBOUND doc groceryOrders
+    FOR item IN 1..1 OUTBOUND user groceryOrders
+        COLLECT i=item.name WITH COUNT INTO c
+        FILTER i != @name
+        SORT c DESC
+        // LIMIT 2
+        RETURN {"item": i, "count": c}   // item -> number of users who purchased it
+                                         // count -> number of times it was purchased
