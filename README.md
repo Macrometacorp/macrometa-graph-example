@@ -7,7 +7,7 @@ This example demonstrates the ability of graph databases in analyzing and offeri
 
 ## ❓ How to use this demo
 You can use this demo to understand how to use Macrometa SDK to create graph database and perform operations on it.
-In sample data folder you will find sample data that you can use to import in Macrometa GDN.
+In sample data folder you will find sample data that you can use to import in Macrometa GDN. We suggest that you follow steps explained in [Graph setup](#graph-setup) section to import data and create graph. After that you can interact with graph using scripts in `create`, `read`, `update` and `delete` folders. (CRUD operations on graph) 
 
 ## 🚀 Run it Locally
 
