@@ -1,10 +1,12 @@
 const jsc8 = require("jsc8");
+const dotenv = require("dotenv");
+
+dotenv.config();
 
 client = new jsc8({
-  url: "https://play.macrometa.io/",
-  apiKey:
-    "dino.lozina_macrometa.com.GRAPH_TEST.EyGXWmQejr4U0nAvYgTc1oKforMbvJ23bsmS6AOmB2qEWI7YXGzHk0mpnQ7Lqd3ba5b8a0",
-  fabricName: "_system",
+  url: process.env.BASE_URL,
+  apiKey: process.env.API_KEY,
+  fabricName: process.env.FABRIC,
 });
 
 async function queryGraph() {
