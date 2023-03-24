@@ -18,7 +18,7 @@ In sample data folder you will find sample data that you can use to import in Ma
 node -v
 ```
 
-### Steps
+### Initial setup
 
 1. Open a CLI and run the command below to clone this repository. You can do:
 
@@ -50,21 +50,22 @@ FABRIC=<your-fabric-name> (default: _system)
 ```
 npm install
 ```
+### Graph setup
 
-6. Create two document collections in Macrometa GDN.
+1. Create two document collections in Macrometa GDN.
     - `groceryItems`
     - `groceryCustomers`
 
-7. Create one edge collection in Macrometa GDN.
+2. Create one edge collection in Macrometa GDN.
     - `groceryOrders`
 
-7. Import test data from `sample-data` folder in Macrometa GDN.
+3. Import test data from `sample-data` folder in Macrometa GDN.
 
-8. Import `sample-data/import-query.json` in Macrometa GDN.
+4. Import `sample-data/import-query.json` in Macrometa GDN.
 
-9. Run `create/create-graph.js` to create graph in Macrometa GDN.
+5. Run `create/create-graph.js` to create graph in Macrometa GDN.
 
-10. Run `graph-query.js` to run graph query and get recommendations.
+6. Run `graph-query.js` to run graph query and get recommendations.
 
 ## 🆘 Macrometa Support
 If you have any trouble or need help while using demo contact [product@macrometa.com](mailto:support@macrometa.com).
