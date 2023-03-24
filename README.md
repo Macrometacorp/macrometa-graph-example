@@ -153,7 +153,10 @@ Grocery Items collection sample. (`groceryItems`)
 ...
 ```
 
-Grocery Orders collection sample. (`groceryOrders`)
+Grocery Orders collection sample. (`groceryOrders` this is an edge collection)
+
+**Note**: `_from` and `_to` are specific fields of edge collection.
+
 ```
 {
     "_from": "groceryCustomers/C01",
