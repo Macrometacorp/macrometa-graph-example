@@ -11,7 +11,7 @@
     "test"
   ],
   "author": "Dino Lozina",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "jsc8": "file:../jsC8",
     "qs": "^6.11.0"
