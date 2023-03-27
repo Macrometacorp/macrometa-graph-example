@@ -13,13 +13,13 @@ client = new jsc8({
 
 // Please be sure that the edge exists in edge collection before running this script.
 async function updateEdge() {
-// We can update _from and _to fields of an edge and also add new fields to the edge. 
+  // We can update _from and _to fields of an edge and also add new fields to the edge.
   const response = await client.updateEdge(
-      "grocery-graph",
-      "groceryOrders",
-      "4117657859",
-    {_from: "groceryCustomers/C15", _to: "groceryItems/P20"}
-  )
+    "grocery-graph",
+    "groceryOrders",
+    "4117657859",
+    { _from: "groceryCustomers/C15", _to: "groceryItems/P20" }
+  );
   console.log(response);
 }
 updateEdge();

@@ -13,7 +13,7 @@
   "author": "Dino Lozina",
   "license": "MIT",
   "dependencies": {
-    "jsc8": "file:../jsC8",
+    "jsc8": "^1.1.0",
     "qs": "^6.11.0"
   },
   "devDependencies": {

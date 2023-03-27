@@ -14,10 +14,10 @@ client = new jsc8({
 // Please be sure that edge collection and edge have been created before running this script.
 async function getEdgeFromEdgeCollection() {
   const response = await client.getEdge(
-      "grocery-graph",
-      "groceryOrders",
-      "4117657859"
-  )
-  console.log(response)
+    "grocery-graph",
+    "groceryOrders",
+    "4117657859"
+  );
+  console.log(response);
 }
 getEdgeFromEdgeCollection();

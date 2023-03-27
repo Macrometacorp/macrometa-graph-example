@@ -17,8 +17,8 @@ async function updateVertex() {
     "grocery-graph",
     "groceryCustomers",
     "C16",
-    {name: "Olivia Thompson"}
-  )
-  console.log(response)
+    { name: "Olivia Thompson" }
+  );
+  console.log(response);
 }
 updateVertex();

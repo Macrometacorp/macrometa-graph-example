@@ -17,7 +17,7 @@ async function getVertexFromVertexCollection() {
     "grocery-graph",
     "groceryCustomers",
     "C16"
-  )
-  console.log(response)
+  );
+  console.log(response);
 }
 getVertexFromVertexCollection();
