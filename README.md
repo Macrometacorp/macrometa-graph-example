@@ -1,6 +1,4 @@
-# ✨ Macrometa Gaph Example with JavaScript SDK ✨
-
-## 👀 Overview
+# ✨ Macrometa Graph Example with JavaScript SDK ✨
 
 This example demonstrates the ability of graph databases in analyzing and
 offering recommendations for items that are commonly purchased together. By
