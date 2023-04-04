@@ -18,7 +18,7 @@ offer recommendations to customers.
 ## ❓ How to use this demo
 
 You can use this demo to understand how to use Macrometa SDK to create graph
-database and perform operations on it. In sample data folder you will find
+database and perform operations on it. In the sample data folder, you will find
 sample data that you can use to import in Macrometa GDN. We suggest that you
 follow steps explained in [Graph data setup](#graph-data-setup) section to import data and
 create graph. After that you can interact with graph using scripts in `create`,
