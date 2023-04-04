@@ -34,7 +34,7 @@ create a graph. After that,  you can interact with the graph using the scripts i
 node -v
 ```
 
-### Initial setup
+### Initial Setup
 
 1. Open a terminal window and run the command below to clone this repository. You can do:
 
