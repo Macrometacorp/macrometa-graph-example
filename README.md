@@ -137,9 +137,12 @@ node graph-query.js
 
 1. Run `create/create-vertex.js` to add new vertex in Macrometa GDN.
     - This script will add a one new vertex in `groceryCustomers` and `groceryItems` collection.
+    - Example data in `groceryCustomers`: `{_key: "C16", name: "John Harris"}`
+    - Example data in `groceryItems`: `{_key: "P21", name: "Avocado"}`
 
 2. Run `create/create-edge.js` to add new edge in Macrometa GDN.
     - This script will add a one new edge in `groceryOrders` collection.
+    - Example data in `groceryOrders`: `{_key: "4117657859", _from: "groceryCustomers/C16", _to: "groceryItems/P21"}`
 
 
 > **Note**: If you run this scripts multiple times you will get and error. This is because we are using same vertex and edge name. 
