@@ -68,7 +68,7 @@ FABRIC=<your-fabric-name> (default: _system)
 npm install
 ```
 
-### Graph data setup
+### Graph Data Setup
 
 1. Create two document collections in Macrometa GDN using Macrometa console.
 
