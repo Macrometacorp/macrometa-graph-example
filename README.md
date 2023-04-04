@@ -109,7 +109,6 @@ node create/create-graph.js
 node graph-query.js
 ```
 
-
 > **Note**: Please make sure that you have created graph and imported data in and run commands in order.
 > First we need to create a graph than query the graph, otherwise you will get error.
 
