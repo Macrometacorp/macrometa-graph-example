@@ -22,7 +22,7 @@ follow the steps explained in [Graph data setup](#graph-data-setup) section to i
 create a graph. After that,  you can interact with the graph using the scripts in `create`,
 `read`, `update`, and `delete` folders. (CRUD operations on graph)
 
-## 🚀 Run it Locally
+## 🚀 Run It Locally
 
 ### Prerequisites
 
