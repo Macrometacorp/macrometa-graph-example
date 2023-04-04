@@ -90,7 +90,6 @@ Example how to import data in Macrometa GDN using Macrometa console:
 ![Import Data](/images/import-data.png)
 
 
-
 Example how to import query in Macrometa GDN using Macrometa console:
 
 ![Import Query](/images/import-query-1.png)
