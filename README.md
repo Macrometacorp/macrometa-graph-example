@@ -8,7 +8,7 @@ establishing connections between customer and item vertices using edge
 collections, the graph is able to seamlessly and accurately deliver tailored
 recommendations to customers who have bought a particular item.
 
-![graph-image](https://user-images.githubusercontent.com/113168755/227571338-408c956b-7139-4250-b11e-f773b1f94650.png)
+![graph-image](/images/graph-image.png)
 
 In the graph that we created customers Dino and Durga bought the same items. The
 graph is able to recommend items to Dallas based on the items that Dino and
@@ -87,8 +87,17 @@ npm install
    console.
 
 Example how to import data in Macrometa GDN using Macrometa console:
+![Create Collection](/images/create-collection.png)
+
+![Import Data](/images/import-data.png)
+
+
 
 Example how to import query in Macrometa GDN using Macrometa console:
+
+![Import Query](/images/import-query-1.png)
+
+![Import Query](/images/import-query-2.png)
 
 ### Create graph and run queries with JavaScript SDK
 
@@ -104,8 +113,10 @@ node create/create-graph.js
 node graph-query.js
 ```
 
+
 > **Note**: Please make sure that you have created graph and imported data in and run commands in order.
 > First we need to create a graph than query the graph, otherwise you will get error.
+
 
 
 1. Run `create/create-graph.js` to create graph in Macrometa GDN.
@@ -120,7 +131,9 @@ node graph-query.js
 
 ### Add additional data (New vertex and edge)
 
+
 > **Note**: Please make sure that you are running commands in order.
+
 
 1. Run `create/create-vertex.js` to add new vertex in Macrometa GDN.
     - This script will add a one new vertex in `groceryCustomers` and `groceryItems` collection.
@@ -128,9 +141,11 @@ node graph-query.js
 2. Run `create/create-edge.js` to add new edge in Macrometa GDN.
     - This script will add a one new edge in `groceryOrders` collection.
 
+
 > **Note**: If you run this scripts multiple times you will get and error. This is because we are using same vertex and edge name. 
 You can change the name of vertex and edge in the script to avoid this error and add new data to graph.
 To run this code without an error you need to delete the vertex and edge from graph first. (If using same name)
+
 
 ## ❓ Query explanation
 
