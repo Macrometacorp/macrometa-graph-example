@@ -95,7 +95,7 @@ Example how to import query in Macrometa GDN using Macrometa console:
 
 ![Import Query](/images/import-query-2.png)
 
-### Create graph and run queries with JavaScript SDK
+### Create Graph and Run Queries with JavaScript SDK
 
 You can run the following scripts in terminal or in your preferred IDE.
 
