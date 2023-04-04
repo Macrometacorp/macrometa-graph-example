@@ -27,7 +27,7 @@ create a graph. After that,  you can interact with the graph using the scripts i
 ### Prerequisites
 
 - Create a free [Macrometa account](https://auth-play.macrometa.io/sign-up)
-2. You will have to have **Node.js 14 (or later)** installed in your system. Run
+- You need **Node.js 14 (or later)** installed in your system. Run
    the following command in your CLI to check your Node.js version.
 
 ```
