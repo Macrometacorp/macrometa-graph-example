@@ -1,4 +1,4 @@
-# ✨ Macrometa Gaph Example with JavaScript SDK ✨
+# ✨ Macrometa Graph Example with JavaScript SDK ✨
 
 ## 👀 Overview
 
@@ -70,7 +70,7 @@ FABRIC=<your-fabric-name> (default: _system)
 npm install
 ```
 
-### Graph setup
+### Graph data setup
 
 1. Create two document collections in Macrometa GDN using Macrometa console.
 
@@ -86,9 +86,51 @@ npm install
 4. Import `sample-data/import-query.json` in Macrometa GDN using Macrometa
    console.
 
-5. Run `create/create-graph.js` to create graph in Macrometa GDN.
+Example how to import data in Macrometa GDN using Macrometa console:
 
-6. Run `graph-query.js` to run graph query and get recommendations.
+Example how to import query in Macrometa GDN using Macrometa console:
+
+### Create graph and run queries with JavaScript SDK
+
+You can run the following scripts in terminal or in preferred your IDE.
+
+Example how to run scripts in terminal (please make sure that you are in root):
+
+```bash
+node create/create-graph.js
+```
+
+```bash
+node graph-query.js
+```
+
+> **Note**: Please make sure that you have created graph and imported data in and run commands in order.
+> First we need to create a graph than query the graph, otherwise you will get error.
+
+
+1. Run `create/create-graph.js` to create graph in Macrometa GDN.
+    - This script will create a graph with name `grocery-graph` and add two
+      vertex collections (`groceryItems` and `groceryCustomers`) and one edge
+      collection (`groceryOrders`) to it.
+
+2. Run `graph-query.js` to run graph query and get recommendations.
+    - This script will run a graph query to get recommendations for item
+      `peanut butter`. You can change the item name in the script to get
+      recommendations for other items.
+
+### Add additional data (New vertex and edge)
+
+> **Note**: Please make sure that you are running commands in order.
+
+1. Run `create/create-vertex.js` to add new vertex in Macrometa GDN.
+    - This script will add a one new vertex in `groceryCustomers` and `groceryItems` collection.
+
+2. Run `create/create-edge.js` to add new edge in Macrometa GDN.
+    - This script will add a one new edge in `groceryOrders` collection.
+
+> **Note**: If you run this scripts multiple times you will get and error. This is because we are using same vertex and edge name. 
+You can change the name of vertex and edge in the script to avoid this error and add new data to graph.
+To run this code without an error you need to delete the vertex and edge from graph first. (If using same name)
 
 ## ❓ Query explanation
 
