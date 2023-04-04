@@ -1,5 +1,4 @@
 # ✨ Macrometa Graph Example with JavaScript SDK ✨
-
 ## 👀 Overview
 
 This example demonstrates the ability of graph databases in analyzing and
