@@ -124,7 +124,7 @@ node graph-query.js
       `peanut butter`. You can change the item name in the script to get
       recommendations for other items.
 
-### Add additional data (New vertex and edge)
+### Add Additional Data (New vertex and edge)
 
 
 > **Note**: Please make sure that you are running commands in order.
@@ -145,7 +145,7 @@ You can change the name of vertex and edge in the script to avoid this error and
 To run this code without an error you need to delete the vertex and edge from graph first. (If using same name)
 
 
-## ❓ Query explanation
+## ❓ Explanation of the Query 
 
 @name is a bind variable that can be set to any item name. In this example we
 have set it to `peanut butter`. First we are filtering by item name and then
@@ -193,7 +193,7 @@ First recommendation according to this query is `jelly` which is purchased by 2
 users. Second recommendation is `napkins` which is purchased by 2 users. Third
 recommendation is `strawberry` which is purchased by 2 users.
 
-## Dataset
+## Example of Dataset
 
 Grocery Customers collection sample. (`groceryCustomers`)
 
