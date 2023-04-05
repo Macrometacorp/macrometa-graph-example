@@ -1,7 +1,5 @@
 # ✨ Macrometa Graph Example with JavaScript SDK ✨
 
-## 👀 Overview
-
 This example demonstrates the ability of graph databases in analyzing and
 offering recommendations for items that are commonly purchased together. By
 establishing connections between customer and item vertices using edge
@@ -10,7 +8,7 @@ recommendations to customers who have bought a particular item.
 
 ![graph-image](/images/graph-image.png)
 
-In the graph that we created customers Dino and Durga bought the same items. The
+In the graph that we created, customers Dino and Durga bought the same items. The
 graph is able to recommend items to Dallas based on the items that Dino and
 Durga bought. This is a simple example of how graph databases can be used to
 offer recommendations to customers.
@@ -18,27 +16,27 @@ offer recommendations to customers.
 ## ❓ How to use this demo
 
 You can use this demo to understand how to use Macrometa SDK to create graph
-database and perform operations on it. In sample data folder you will find
+database and perform operations on it. In the sample data folder, you will find
 sample data that you can use to import in Macrometa GDN. We suggest that you
-follow steps explained in [Graph data setup](#graph-data-setup) section to import data and
-create graph. After that you can interact with graph using scripts in `create`,
-`read`, `update` and `delete` folders. (CRUD operations on graph)
+follow the steps explained in [Graph data setup](#graph-data-setup) section to import data and
+create a graph. After that,  you can interact with the graph using the scripts in `create`,
+`read`, `update`, and `delete` folders. (CRUD operations on graph)
 
-## 🚀 Run it Locally
+## 🚀 Run It Locally
 
 ### Prerequisites
 
-1. Create a free [Macrometa account](https://auth-play.macrometa.io/sign-up)
-2. You will have to have **Node.js 14 (or later)** installed in your system. Run
+- Create a free [Macrometa account](https://auth-play.macrometa.io/sign-up)
+- You need **Node.js 14 (or later)** installed in your system. Run
    the following command in your CLI to check your Node.js version.
 
 ```
 node -v
 ```
 
-### Initial setup
+### Initial Setup
 
-1. Open a CLI and run the command below to clone this repository. You can do:
+1. Open a terminal window and run the command below to clone this repository. You can do:
 
 ```
 git clone https://github.com/Macrometacorp/macrometa-graph-example.git
@@ -70,7 +68,7 @@ FABRIC=<your-fabric-name> (default: _system)
 npm install
 ```
 
-### Graph data setup
+### Graph Data Setup
 
 1. Create two document collections in Macrometa GDN using Macrometa console.
 
@@ -91,15 +89,13 @@ Example how to import data in Macrometa GDN using Macrometa console:
 
 ![Import Data](/images/import-data.png)
 
-
-
 Example how to import query in Macrometa GDN using Macrometa console:
 
 ![Import Query](/images/import-query-1.png)
 
 ![Import Query](/images/import-query-2.png)
 
-### Create graph and run queries with JavaScript SDK
+### Create Graph and Run Queries with JavaScript SDK
 
 You can run the following scripts in terminal or in your preferred IDE.
 
@@ -112,7 +108,6 @@ node create/create-graph.js
 ```bash
 node graph-query.js
 ```
-
 
 > **Note**: Please make sure that you have created graph and imported data in and run commands in order.
 > First we need to create a graph than query the graph, otherwise you will get error.
