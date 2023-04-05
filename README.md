@@ -79,7 +79,7 @@ npm install
 
 2. Create one edge collection in Macrometa GDN using Macrometa console.
 
-   - `groceryOrders` -> 
+   - `groceryOrders`
 
 3. Import test data from `sample-data` folder in Macrometa GDN.
 
@@ -126,24 +126,20 @@ node graph-query.js
       `peanut butter`. You can change the item name in the script to get
       recommendations for other items.
 
-### Add Additional Vertex and Edge
+### Adding Additional Vertex and Edge
 
-In this section we will add new vertex and edge to graph. You can run the following scripts in terminal or in your preferred IDE.
+In this section, we will demonstrate how to add a new vertex and edge to the graph. You can execute the following scripts in the terminal or your preferred IDE.
 
-1. Run `create/create-vertex.js` to add new vertex in Macrometa GDN.
-    - This script will add a one new vertex in `groceryCustomers` and `groceryItems` collection.
-    - Example data in `groceryCustomers`: `{_key: "C16", name: "John Harris"}`
-    - Example data in `groceryItems`: `{_key: "P21", name: "Avocado"}`
+1. Execute `create/create-vertex.js` to add a new vertex to Macrometa GDN.
+    - This script will insert a new vertex into both the `groceryCustomers` and `groceryItems` collections.
+    - Example data for `groceryCustomers`: `{_key: "C16", name: "John Harris"}`
+    - Example data for `groceryItems`: `{_key: "P21", name: "Avocado"}`
 
-2. Run `create/create-edge.js` to add new edge in Macrometa GDN.
-    - This script will add a one new edge in `groceryOrders` collection.
-    - Example data in `groceryOrders`: `{_key: "4117657859", _from: "groceryCustomers/C16", _to: "groceryItems/P21"}`
+2. Execute `create/create-edge.js` to add a new edge to Macrometa GDN.
+    - This script will insert a new edge into the `groceryOrders` collection.
+    - Example data for `groceryOrders`: `{_key: "4117657859", _from: "groceryCustomers/C16", _to: "groceryItems/P21"}`
 
-
-> **Note**: If you run this scripts multiple times you will get and error. This is because we are using same vertex and edge name. 
-You can change the name of vertex and edge in the script to avoid this error and add new data to graph.
-To run this code without an error you need to delete the vertex and edge from graph first. (If using same name)
-
+> **Note**: If you run these scripts multiple times, you may encounter an error. This is because we are using the same vertex and edge names. To avoid this error and add new data to the graph, you can modify the names of the vertex and edge within the script. To execute this code without an error, you need to delete the existing vertex and edge from the graph first (if using the same names).
 
 ## ❓ Explanation of the Query 
 
@@ -273,7 +269,7 @@ collection)
 ## 🆘 Macrometa Support
 
 If you have any trouble or need help while using demo contact
-[product@macrometa.com](mailto:support@macrometa.com).
+[support@macrometa.com](mailto:support@macrometa.com).
 
 ## 📜 License
 
