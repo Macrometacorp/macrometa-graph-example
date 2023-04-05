@@ -36,6 +36,8 @@ node -v
 
 ### Initial Setup
 
+In this paragraph, we will explain how to clone this repository and set up environment variables.
+
 1. Open a terminal window and run the command below to clone this repository. You can do:
 
 ```
@@ -60,7 +62,7 @@ API_KEY=<your-api-key>
 FABRIC=<your-fabric-name> (default: _system)
 ```
 
-**Note**: `.env.sample` is only a sample file that you can also use as a guide.
+**Note**: `.env.sample` is only a sample file that you can also use as a guide to create your own `.env`.
 
 3. Install the project dependencies with:
 
@@ -77,7 +79,7 @@ npm install
 
 2. Create one edge collection in Macrometa GDN using Macrometa console.
 
-   - `groceryOrders`
+   - `groceryOrders` -> 
 
 3. Import test data from `sample-data` folder in Macrometa GDN.
 
@@ -124,11 +126,9 @@ node graph-query.js
       `peanut butter`. You can change the item name in the script to get
       recommendations for other items.
 
-### Add Additional Data (New vertex and edge)
+### Add Additional Vertex and Edge
 
-
-> **Note**: Please make sure that you are running commands in order.
-
+In this section we will add new vertex and edge to graph. You can run the following scripts in terminal or in your preferred IDE.
 
 1. Run `create/create-vertex.js` to add new vertex in Macrometa GDN.
     - This script will add a one new vertex in `groceryCustomers` and `groceryItems` collection.
@@ -147,12 +147,7 @@ To run this code without an error you need to delete the vertex and edge from gr
 
 ## ❓ Explanation of the Query 
 
-@name is a bind variable that can be set to any item name. In this example we
-have set it to `peanut butter`. First we are filtering by item name and then
-collecting all the users who purchased that item. Then we are collecting all the
-items that were purchased by those users. We are filtering out the item that we
-are looking (`peanut butter`) for and sorting the result by the number of times
-it was purchased.
+In this section we will explain the query that we have used to get recommendations.
 
 ### Query
 
@@ -168,6 +163,13 @@ FOR user IN 1..1 INBOUND doc groceryOrders
         RETURN {"item": i, "count": c}   // item -> number of users who purchased it
                                          // count -> number of times it was purchased
 ```
+
+@name is a bind variable that can be set to any item name. In this example we
+have set it to `peanut butter`. First we are filtering by item name and then
+collecting all the users who purchased that item. Then we are collecting all the
+items that were purchased by those users. We are filtering out the item that we
+are looking (`peanut butter`) for and sorting the result by the number of times
+it was purchased.
 
 ### Result
 
