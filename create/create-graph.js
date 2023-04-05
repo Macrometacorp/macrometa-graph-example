@@ -11,7 +11,7 @@ client = new jsc8({
   fabricName: process.env.FABRIC,
 });
 
-// Please be sure that edge collections and vertices have been created before running this script.
+// Be sure that edge collections and vertices have been created before running this script.
 async function createGraph() {
   const response = await client.createGraph("grocery-graph", {
     edgeDefinitions: [

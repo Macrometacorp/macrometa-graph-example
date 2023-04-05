@@ -11,7 +11,7 @@ client = new jsc8({
   fabricName: process.env.FABRIC,
 });
 
-// Please be sure that the vertex exists in collection before running this script.
+// Be sure that the vertex exists in collection before running this script.
 async function updateVertex() {
   const response = await client.updateVertexFromVertexCollection(
     "grocery-graph",

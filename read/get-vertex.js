@@ -11,7 +11,7 @@ client = new jsc8({
   fabricName: process.env.FABRIC,
 });
 
-// Please be sure that vertex collection and vertex have been created before running this script.
+// Be sure that vertex collection and vertex have been created before running this script.
 async function getVertexFromVertexCollection() {
   const response = await client.getVertexFromVertexCollection(
     "grocery-graph",

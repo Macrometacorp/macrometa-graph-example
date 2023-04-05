@@ -11,7 +11,7 @@ client = new jsc8({
   fabricName: process.env.FABRIC,
 });
 
-// Please be sure that the graph exists before running this script.
+// Be sure that the graph exists before running this script.
 async function deleteGraph() {
   const response = await client.deleteGraph("grocery-graph");
   console.log(response);

@@ -11,7 +11,7 @@ client = new jsc8({
   fabricName: process.env.FABRIC,
 });
 
-// Please be sure that the edge exists in edge collection before running this script.
+// Be sure that the edge exists in edge collection before running this script.
 async function updateEdge() {
   // We can update _from and _to fields of an edge and also add new fields to the edge.
   const response = await client.updateEdge(

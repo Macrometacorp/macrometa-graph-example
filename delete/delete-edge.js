@@ -11,7 +11,7 @@ client = new jsc8({
   fabricName: process.env.FABRIC,
 });
 
-// Please be sure that the graph, edge collections, and edges have been created before running this script.
+// Be sure that the graph, edge collections, and edges have been created before running this script.
 async function deleteEdge() {
   const response = await client.deleteEdge(
     "grocery-graph",

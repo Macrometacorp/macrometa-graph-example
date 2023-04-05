@@ -11,7 +11,7 @@ client = new jsc8({
   fabricName: process.env.FABRIC,
 });
 
-// Please be sure that the graph, vertex collections, and edges have been created before running this script.
+// Be sure that the graph, vertex collections, and edges have been created before running this script.
 async function deleteVertex() {
   const responseCustomerVertex = await client.removeVertexFromVertexCollection(
     "grocery-graph",
