@@ -54,7 +54,7 @@ depending on your GitHub authentication method.
 
 2. Create a new `.env` file and add your environment variables on your selected
    path.  
-   Here is how `.env` file should look like:
+   Here is how a `.env` file should look:
 
 ```
 BASE_URL=https://play.paas.macrometa.io/
