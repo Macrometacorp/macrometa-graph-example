@@ -38,7 +38,7 @@ node -v
 
 In this paragraph, we will explain how to clone this repository and set up environment variables.
 
-1. Open a terminal window and run the command below to clone this repository. You can do:
+1. Open a terminal window and run the command below to clone this repository. You can run:
 
 ```
 git clone https://github.com/Macrometacorp/macrometa-graph-example.git
