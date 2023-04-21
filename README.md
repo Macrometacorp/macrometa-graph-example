@@ -23,6 +23,7 @@ create a graph. After that,  you can interact with the graph using the scripts i
 `read`, `update`, and `delete` folders. (CRUD operations on graph)
 
 ## 🚀 Run It Locally
+In this tutorial, we will walk you through the process of setting up a local instance of a Macrometa graph example project. By following this step-by-step guide, you will learn how to create an account, set up your environment, import sample data and queries, and interact with the Macrometa Global Data Network (GDN) using JavaScript SDK. Additionally, we will demonstrate how to add new vertices and edges to the graph. Let's get started by setting up the prerequisites and initial environment.
 
 ### Prerequisites
 
