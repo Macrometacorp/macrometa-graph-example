@@ -27,7 +27,7 @@ In this tutorial, we will walk you through the process of setting up a local ins
 
 ### Prerequisites
 
-- Create a free [Macrometa account](https://auth-play.macrometa.io/sign-up)
+- Log in to your [Macrometa account](https://auth-play.macrometa.io/)
 - You need **Node.js 14 (or later)** installed in your system. Run
    the following command in your CLI to check your Node.js version.
 
@@ -39,7 +39,7 @@ node -v
 
 In this paragraph, we will explain how to clone this repository and set up environment variables.
 
-1. Open a terminal window and run the command below to clone this repository. You can do:
+1. Open a terminal window and run the command below to clone this repository. You can run:
 
 ```
 git clone https://github.com/Macrometacorp/macrometa-graph-example.git
@@ -55,7 +55,7 @@ depending on your GitHub authentication method.
 
 2. Create a new `.env` file and add your environment variables on your selected
    path.  
-   Here is how `.env` file should look like:
+   Here is how a `.env` file should look:
 
 ```
 BASE_URL=https://play.paas.macrometa.io/
