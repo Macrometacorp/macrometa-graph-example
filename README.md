@@ -85,7 +85,7 @@ npm install
 3. Import test data from `sample-data` folder in Macrometa GDN.
 
 4. Import `sample-data/import-query.json` in Macrometa GDN using Macrometa
-   console.
+   console. For instructions, refer to [Import Query Workers](https://www.macrometa.com/docs/queryworkers/query-workers#import-query-workers)
 
 Example how to import data in Macrometa GDN using Macrometa console:
 ![Create Collection](/images/create-collection.png)
