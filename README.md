@@ -188,7 +188,7 @@ If bind variable `@name` is set to `peanut butter` then result will be:
 
 The first recommendation according to this query is `jelly`, which is purchased by two
 users. The second recommendation is `napkins`, which is purchased by two users. The third
-recommendation is `strawberry` which is purchased by 2 users.
+recommendation is `strawberry`, which is purchased by two users.
 
 ## Example of Dataset
 
