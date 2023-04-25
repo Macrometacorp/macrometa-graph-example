@@ -73,7 +73,7 @@ npm install
 
 ### Graph Data Setup
 
-1. Create two document collections in Macrometa GDN using Macrometa console.
+1. Create two document collections in Macrometa GDN using Macrometa console. For instructions, refer to [Create a Document Store](https://www.macrometa.com/docs/collections/documents/create-document-store).
 
    - `groceryItems`
    - `groceryCustomers`
