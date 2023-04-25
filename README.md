@@ -186,7 +186,7 @@ If bind variable `@name` is set to `peanut butter` then result will be:
 ]
 ```
 
-First recommendation according to this query is `jelly` which is purchased by 2
+The first recommendation according to this query is `jelly`, which is purchased by two
 users. Second recommendation is `napkins` which is purchased by 2 users. Third
 recommendation is `strawberry` which is purchased by 2 users.
 
