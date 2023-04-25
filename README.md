@@ -8,7 +8,7 @@ recommendations to customers who have bought a particular item.
 
 ![graph-image](/images/graph-image.png)
 
-Customers Dino and Durga bought the same items. We are able to traverse the
+Customers Dino and Durga bought the same items. We can traverse the
 graph and recommend items to Dallas based on the items that Dino and
 Durga bought. This is a simple example of how graph databases can be used to
 offer recommendations to customers.
