@@ -122,15 +122,17 @@ node graph-query.js
 In this section, we will demonstrate how to add a new vertex and edge to the graph. You can execute the following scripts in the terminal or your preferred IDE.
 
 1. To add a new vertex to Macrometa GDN, execute the `create/create-vertex.js` script. This script will insert a new vertex into both the `groceryCustomers` and `groceryItems` collections.
-   - Example data for `groceryCustomers`: `{_key: "C16", name: "John Harris"}`
-   - Example data for `groceryItems`: `{_key: "P21", name: "Avocado"}`
+
+Example data for `groceryCustomers`: `{_key: "C16", name: "John Harris"}`
+Example data for `groceryItems`: `{_key: "P21", name: "Avocado"}`
 
 ```bash
 node create/create-vertex.js
 ```
 
 2. To add a new edge to Macrometa GDN, execute the `create/create-edge.js` script. This script will insert a new edge into the `groceryOrders` collection.
-- Example data for `groceryOrders`: `{_key: "4117657859", _from: "groceryCustomers/C16", _to: "groceryItems/P21"}`
+
+Example data for `groceryOrders`: `{_key: "4117657859", _from: "groceryCustomers/C16", _to: "groceryItems/P21"}`
 
 ```bash
 node create/create-edge.js
