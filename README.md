@@ -78,7 +78,7 @@ npm install
    - `groceryItems`
    - `groceryCustomers`
 
-2. Create one edge collection in Macrometa GDN using Macrometa console.
+2. Create one edge collection in Macrometa GDN using Macrometa console. For instructions, refer to [Create a Graph Edge Collection](https://www.macrometa.com/docs/graphs/graph-tasks/create-graph-edge-collection).
 
    - `groceryOrders`
 
