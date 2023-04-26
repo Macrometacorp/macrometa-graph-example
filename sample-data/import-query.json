@@ -1,0 +1,12 @@
+[
+  {
+    "_key": "test",
+    "fabric": "test",
+    "name": "grocery-recomendations",
+    "parameter": { "name": "peanut butter" },
+    "tenant": "test",
+    "type": "c8ql",
+    "userid": "test",
+    "value": "LET doc = (FOR d in groceryItems FILTER d.name == @name RETURN d)[0]\nFOR user IN 1..1 INBOUND doc groceryOrders\n    FOR item IN 1..1 OUTBOUND user groceryOrders\n        COLLECT i=item.name WITH COUNT INTO c\n        FILTER i != @name\n        SORT c DESC\n        // LIMIT 2\n        RETURN {\"item\": i, \"count\": c} // item -> number of users who purchased it"
+  }
+]
